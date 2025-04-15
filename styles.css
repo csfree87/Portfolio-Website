@@ -139,3 +139,12 @@ a:focus {
       font-size: 2rem;
     }
   }
+
+  /* Media query for smaller screens */
+  
+  @media (max-width: 768px) {
+    .project-title {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
